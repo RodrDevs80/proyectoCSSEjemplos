@@ -28,7 +28,7 @@ h5 {
 }
 
 .imagen {
-  background-image: url(/img/Lápices_de_colores_01.jpg);
+  background-image: url(../img/Lápices_de_colores_01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
