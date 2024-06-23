@@ -1,0 +1,42 @@
+.cajita {
+  border: 2px solid #000;
+  width: 25px;
+  height: 25px;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+}
+h4 {
+  margin-left: 5px;
+}
+@keyframes ejemplo {
+  from {
+    left: -150px;
+    background-color: red;
+  }
+  to {
+    left: 100px;
+    background-color: blue;
+  }
+}
+.linear {
+  animation: ejemplo 2s linear infinite alternate;
+}
+.ease {
+  animation: ejemplo 2s ease infinite alternate;
+}
+.ease-in {
+  animation: ejemplo 2s ease-in infinite alternate;
+}
+.ease-out {
+  animation: ejemplo 2s ease-out infinite alternate;
+}
+.ease-in-out {
+  animation: ejemplo 2s ease-in-out infinite alternate;
+}
+.anima {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

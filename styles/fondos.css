@@ -1,0 +1,45 @@
+.grib-container3 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  background-color: grey;
+  padding: 15px;
+  justify-content: space-evenly;
+  height: 100%;
+  border-radius: 10px;
+  place-items: center;
+}
+.grib-container3 > div {
+  width: 35vh;
+  height: 90vh;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid #000;
+}
+
+h5 {
+  text-align: center;
+}
+.plano {
+  background-color: aquamarine;
+}
+
+.gradiente {
+  background: linear-gradient(to left, red, blue);
+}
+
+.imagen {
+  background-image: url(/img/Lápices_de_colores_01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 914px) {
+  .grib-container3 {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  .grib-container3 > div {
+    width: 80%;
+    height: 70%;
+  }
+}
